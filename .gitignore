@@ -1,4 +1,9 @@
 *.pyc
 *.o
 *.exe
+*.h5
+*.json
+*.swp
+
+
 
