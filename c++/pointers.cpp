@@ -12,10 +12,26 @@ void squareByReference(int &numPtr){
 
 int main(){
 
-	int x = 3, res=0;
-	//squareByPointer(&x); 
-	squareByReference(x);
+	//int y;
+	//int &x = y;
 
-	cout << x <<endl;
+	//y = 4;
+	//cout << "x: " << x << endl;
+	////squareByPointer(&x); 
+	////squareByReference(x);
+	
+
+	//cout << x <<endl;
+	
+	long arr[] = {6, 0, 9, 6};
+	long *ptr = arr;
+
+	cout << *ptr <<endl;
+	ptr++;
+	cout << *ptr <<endl;
+	ptr++;
+	cout << *ptr <<endl;
+	ptr++;
+	cout << *ptr <<endl;
 	return 0;
 }
