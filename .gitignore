@@ -4,6 +4,8 @@
 *.h5
 *.json
 *.swp
+*.DS_Store
+
 
 
 
